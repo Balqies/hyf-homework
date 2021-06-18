@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  .progress1 {width: 10%; background-color: #999b9a;}
+  
+
+  .style-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.style-selection {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    flex: 0 1 calc(20% - 8px);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+.style-selection img {
+    width: 200px;
+    height: 200px;
+    border: black 1px solid;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
